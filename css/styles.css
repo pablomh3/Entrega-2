@@ -11,7 +11,7 @@ nav{
     font-size: 18px;
     display: flex;
     height: 100px;
-    width: 100%;
+    width:max-content;
     padding: 3px 40px;
     justify-content:space-between;
     align-items: center;
