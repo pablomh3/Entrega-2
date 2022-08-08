@@ -3,40 +3,44 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-body {
     font-family: 'Roboto', sans-serif;
 }
+
 nav {
     background-color: #21571f;
     display: flex;
     height: 15vh;
+    padding: 3px 40px;
+    justify-content:space-between;
+    align-items: center;
 }
-div img {
-    display: flex;
-    margin-left: 10px;
-    margin-top: -40px;
-
+body {
+    background-color: white;
 }
-ul {
+.logo {
+    cursor: pointer;
+    width: 180px;
+    height: auto;
+}
+ nav ul {
     display: flex;
     list-style: none;
+    align-content:center;
 }
 
-ul li {
-    display: flex;
-    margin-top: 70px;
-    margin-left: 90px;
-    padding-left: 50px;
+nav ul li {
     letter-spacing: 2px;
-    font-size: medium;
+    padding: 0 50px;
 }
-ul li a {
+nav ul li a {
  text-decoration: none;
  color: white;
+ font-size: medium;
+ transition: all 0.3s;
 }
-ul li a:hover {
+nav ul li a:hover {
     text-decoration: none;
     color: black;
     font-weight: 1000;
+    transform: scale(1.0);
    }
