@@ -6,10 +6,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
-nav {
+nav{
     background-color: #21571f;
+    font-size: 18px;
     display: flex;
-    height: 15vh;
+    height: 100px;
     padding: 3px 40px;
     justify-content:space-between;
     align-items: center;
@@ -29,12 +30,14 @@ body {
 }
 
 nav ul li {
+    display: flex;
     letter-spacing: 2px;
-    padding: 0 50px;
+    padding: 0px;
 }
 nav ul li a {
  text-decoration: none;
  color: white;
+ padding: 60px;
  font-size: medium;
  transition: all 0.3s;
 }
@@ -42,5 +45,25 @@ nav ul li a:hover {
     text-decoration: none;
     color: black;
     font-weight: 1000;
+    transform: scale(1.0);
+   }
+.button {
+    cursor: pointer;
+    font-weight: 800;
+    color: #21571f;
+    padding: 10px 20px;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: all 0.3s;
+   }
+   .button:hover {
+    cursor: pointer;
+    font-weight: 800;
+    color: white;
+    padding: 10px 20px;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 20px;
     transform: scale(1.0);
    }
