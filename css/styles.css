@@ -6,20 +6,23 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
 body {
     background-color: whitesmoke;
     overflow-x: hidden;
 }
+
 header{
     background-color: #3F3D56;
     font-size: 18px;
     display: flex;
-    height: 100px;
+    height: 15vh;
     width: 100%;
     padding: 20px;
     justify-content: space-around;
     align-items: center;
 }
+
 header div .logo {
     display: flex;
     align-items:center;
@@ -45,6 +48,7 @@ nav ul li {
     letter-spacing: 2px;
     gap:60px;
 }
+
 nav ul li a {
  text-decoration: none;
  color: white;
@@ -52,17 +56,20 @@ nav ul li a {
  font-weight: 800;
  transition: all 0.3s;
 }
+
 nav ul li a:hover {
     text-decoration: none;
     color: #1c752b;
     font-weight: 1000;
     transform: scale(1.0);
-   }
+}
+
 .cont-button {
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
+
 .button-nav {
     cursor: pointer;
     font-size: 18px;
@@ -74,8 +81,9 @@ nav ul li a:hover {
     text-decoration: none;
     border-radius: 20px;
     transition: all 0.3s;
-   }
-   .button-nav:hover {
+}
+
+.button-nav:hover {
     cursor: pointer;
     font-weight: 800;
     color: white;
@@ -83,57 +91,63 @@ nav ul li a:hover {
     background-color: #1c752b;
     text-decoration: none;
     border-radius: 20px;
-    transform: scale(1.0);
-   }
-   #hero{
+}
+
+#hero{
     display: flex;
-    width: 1200px;
-    margin: 90px 10%;
-    height: 60vh;
+    width: 80vw;
+    margin: 5% 10% 0;
+    height: 50vh;
     background-color: rgb(255, 255, 255);
     justify-content:space-around;
     align-items: flex-start;
     padding: 20px;
-    gap: 20px;
-   }
-   .container-left{
+}
+
+.container-left{
     display: flex;
     width: 40%;
     justify-content: space-between;
     flex-wrap: wrap;
-   }
-    .container-right {
+}
+
+.container-right {
     display: flex;
     max-width: 60%;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    }
-   .h2-hero {
+}
+
+.h2-hero {
     font-size: 32px;
     letter-spacing: 1px;
     color: #1c752b;
     margin: 20px 10px;
-   }
-   .h3-hero {
+}
+
+.h3-hero {
     color: #3F3D56;
     justify-content: center;
     align-items: center;
     margin: 10px 10px;
     font-size: 16px;
-   }
-   .img-hero img{
+}
+
+.img-hero img{
     display: flex;
     width: 600px;
     height: auto;
-   }
-   .button-hero {
-    margin: 25px 10px;
-    flex-wrap: nowrap;
+}
+
+.button-hero {
     margin-top: 40px;
+    align-items:center;
+    justify-content: space-around;
     
-   }
-   .a-button1 {
+}
+
+.a-button1 {
     font-size: 18px;
     font-weight: 800;
     color: #1c752b;
@@ -142,9 +156,11 @@ nav ul li a:hover {
     border: 2px solid #1c752b;
     text-decoration: none;
     border-radius: 20px;
-    transition: all 0.3s
-   }
-   .a-button1:hover {
+    margin: 15px;
+    transition: all 0.3s;
+}
+
+.a-button1:hover {
     font-size: 18px;
     font-weight: 800;
     color: white;
@@ -152,8 +168,9 @@ nav ul li a:hover {
     background-color: #1c752b;
     border-radius: 20px;
     transition: all 0.3s
-   }
-   .a-button2 {
+}
+
+.a-button2 {
     font-size: 18px;
     font-weight: 800;
     color: #3F3D56;
@@ -161,17 +178,32 @@ nav ul li a:hover {
     background-color: white;
     border: 2px solid #3F3D56;
     text-decoration: none;
-    margin-left: 22px;
     border-radius: 20px;
     transition: all 0.3s
-   }
-   .a-button2:hover {
+}
+
+.a-button2:hover {
     font-size: 18px;
     font-weight: 800;
     color: white;
     padding: 10px 20px;
     background-color: #3F3D56;
-    
     border-radius: 20px;
     transition: all 0.3s
-   }
+}
+
+.info {
+    display: flex;
+    width: 80vw;
+    margin: 3% 10%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    justify-content:center;
+    align-items: center;
+    padding: 40px;
+    font-style: italic;
+    font-weight: 800;
+    word-spacing: 2px;
+    color: #1c752b;
+    text-align: center;
+}
