@@ -10,6 +10,7 @@
 body {
     background-color: whitesmoke;
     overflow-x: hidden;
+    height: fit-content;
 }
 
 header{
@@ -92,12 +93,13 @@ nav ul li a:hover {
     text-decoration: none;
     border-radius: 20px;
 }
-
+main {
+    margin: 5% 10% 0;
+}
 #hero{
     display: flex;
-    width: 80vw;
-    margin: 5% 10% 0;
-    height: 50vh;
+    width: auto;
+    height: 55vh;
     background-color: rgb(255, 255, 255);
     justify-content:space-around;
     align-items: flex-start;
@@ -106,14 +108,14 @@ nav ul li a:hover {
 
 .container-left{
     display: flex;
-    width: 40%;
+    width: 500px;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .container-right {
     display: flex;
-    max-width: 60%;
+    width: 600px;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
@@ -141,7 +143,7 @@ nav ul li a:hover {
 }
 
 .button-hero {
-    margin-top: 40px;
+    margin-top: 50px;
     align-items:center;
     justify-content: space-around;
     
@@ -194,9 +196,9 @@ nav ul li a:hover {
 
 .info {
     display: flex;
-    width: 80vw;
-    margin: 3% 10%;
-    height: auto;
+    width: auto;
+    margin-top: 70px;
+    height: 15vh;
     background-color: rgb(255, 255, 255);
     justify-content:center;
     align-items: center;
@@ -204,6 +206,141 @@ nav ul li a:hover {
     font-style: italic;
     font-weight: 800;
     word-spacing: 2px;
-    color: #1c752b;
+    color: #3F3D56;
     text-align: center;
+}
+
+.info-cards {
+    display: block;
+    width: auto;
+    margin-top: 70px;
+    height: 15vh;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 40px 0 10px;
+    color: #3F3D56;
+    font-weight: bold;
+}
+.info-cards h2 {
+    margin-bottom: 10px;
+}
+.container-cards{
+    display: flex;
+    height: 45vh;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.card {
+    display: block;
+    width: auto;
+    text-align: center;
+    align-content: center;
+    margin: 10px;
+}
+.card .img {
+    height: 120px;
+    width: auto;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    color: #1c752b;
+}
+.card p {
+    color: #3F3D56;
+    font-weight: 600;
+}
+
+.contacto {
+    display: flex;
+    width: auto;
+    height: 48vh;
+    background-color: rgb(255, 255, 255);
+    justify-content:space-between;
+    align-items:center;
+    margin-top: 70px;
+    flex-wrap: wrap;
+    padding: 10px;
+
+}
+.contacto-h2 {
+    display: block;
+    width: 100%;
+    height: 8px;
+    color: #3F3D56;
+    font-weight: bold;
+    padding: 20px 20px 0;
+}
+.contendor-sucursales {
+    display: flex;
+}
+.sucursal {
+    padding: 5px;
+}
+.datos-sucursales {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+    margin: 15px;
+}
+.sucursal h3 {
+    text-align: left;
+    margin: 20px;
+    color: #1c752b;
+}
+.datos-sucursales img {
+    width: 22px;
+    height: auto;
+    margin-right: 3px;
+}
+.datos-sucursales p {
+    color: #3F3D56;
+}
+.mapa {
+    display: flex;
+    justify-content: right;
+}
+.redes {
+    display: flex;
+}
+.logo-redes {
+    display: flex;
+    padding: 10px;
+}
+footer {
+    background-color: #175220;
+    display: flex;
+    height:120px;
+    width:120vw;
+    margin-top: 70px;
+    align-items:center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.contenedor-footer {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    gap: 100px;
+    margin-left: 120px;
+    color: black;
+}
+.logo-footer {
+    display: flex;
+    align-self: center;
+    cursor: pointer;
+    width: 200px;
+
+}
+.p-footer span {
+    font-weight: 600;
+    color: rgb(255, 255, 255);
 }
